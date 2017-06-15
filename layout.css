@@ -1,0 +1,69 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+body{
+
+    overflow: hidden;
+}
+
+video {
+    top:0;
+    left:0;
+    width:1080px;
+    height: 1920px;
+}
+
+body.weboss.webos-signage-1.portrait video,
+body.weboss.webos-signage-2.portrait video,
+body.weboss.webos-signage-1.portrait-ccw video,
+body.weboss.webos-signage-2.portrait-ccw video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1920px!important;
+    height: 100%;
+}
+ @font-face {
+      font-family: "Turkcell Satura Med";
+      src: url({{TURKCELL_FONT}});
+  }
+
+.overlay{
+
+    position:absolute;
+    top:500px;
+    left:240px;
+
+    z-index:1;
+
+    -webkit-transform: translate3d(0,-1000,0);
+    -moz-transform: translate3d(0,-1000,0);
+    transform: translate3d(0,-1000,0);
+
+}
+.overlay h1 {
+    position:relative;
+    background: transparent none repeat scroll 0 0;
+    font-family: "Turkcell Satura Med";
+    text-align: center;
+    margin: 0;
+}
+.overlay h2 {
+    position:relative;
+    background: transparent none repeat scroll 0 0;
+    font-family: "Turkcell Satura Med";
+    text-align: center;
+    margin: 0;
+}
+.yellow {
+    font-size: 900%;
+    color: #FFC72C;
+}
+
+.white {
+    font-size: 700%;
+    color: #ffffff;
+}
+
+
