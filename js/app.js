@@ -50,9 +50,9 @@ $( function() {
     // overlay.css({"opacity" : 1});
     // overlay.css({"color": "#FFC72C"});
     overlay.css({
-                    '-webkit-transform': 'translate3d(0px,-800px, 0px)'
-                    , '-moz-transform': 'translate3d(0px,-800px, 0px)'
-                    , 'transform': 'translate3d(0px,-800px, 0px)'
+                    '-webkit-transform': 'translate3d(0px,-1000px, 0px)'
+                    , '-moz-transform': 'translate3d(0px,-1000px, 0px)'
+                    , 'transform': 'translate3d(0px,-1000px, 0px)'
                 });
 
 
@@ -61,7 +61,7 @@ $( function() {
 
 function onTrackedVideoFrame(currentTime, duration){
 
-    if(currentTime >= 5 && currentTime < duration-.7 ){
+    if(currentTime >= 5 && currentTime < duration-.1 ){
         // overlay.css({"opacity" : 1});
         // overlay.css({"color": "#FFC72C"});
         if(!animationStart) {
@@ -84,9 +84,9 @@ function onTrackedVideoFrame(currentTime, duration){
         // overlay.css({"opacity" : 0});
         // overlay.css({"color": "#FFC72C"});
         overlay.css({
-                    '-webkit-transform': 'translate3d(0px,-800px, 0px)'
-                    , '-moz-transform': 'translate3d(0px,-800px, 0px)'
-                    , 'transform': 'translate3d(0px,-800px, 0px)'
+                    '-webkit-transform': 'translate3d(0px,-1000px, 0px)'
+                    , '-moz-transform': 'translate3d(0px,-1000px, 0px)'
+                    , 'transform': 'translate3d(0px,-1000px, 0px)'
                 });
         overlay.css("-webkit-transition", "none");
         overlay.css("-moz-transition", "none");

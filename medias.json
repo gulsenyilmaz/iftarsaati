@@ -1,4 +1,4 @@
 {
-    "INTRO_VIDEO": {"dev": "./medias/TURKCELL_TIM_EKRANLAR_HAZIRAN_Iftar_Vakti_1080x1920.mp4", "prod": "media://382"},
+    "INTRO_VIDEO": {"dev": "./medias/TURKCELL_TIM_EKRANLAR_HAZIRAN_Iftar_Vakti_1080x1920_R2.mp4", "prod": "media://387"},
     "TURKCELL_FONT":{"dev":"./medias/turkcell_satura/TURKCELL_FONT/TurkcellSaturaMed.ttf", "prod":"media://376"}
 }
